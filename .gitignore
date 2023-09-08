@@ -1,0 +1,6 @@
+checkpoints/*
+*.pyc
+__pycache__
+**/__pycache__/
+results/*
+tensorboard/*
