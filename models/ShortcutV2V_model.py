@@ -77,10 +77,7 @@ def create_eval_dataloader(opt, phase="val"):
     opt = copy.deepcopy(opt)
     opt.isTrain = False
     opt.serial_batches = True
-    # if opt.feat_vis:
-    #     opt.serial_batches = False
-    #     torch.manual_seed(567)
-    opt.phase = phase # 고쳐야됨
+    opt.phase = phase
     dataloader = CreateDataLoader(opt)
     dataloader = dataloader.load_data()
     return dataloader
