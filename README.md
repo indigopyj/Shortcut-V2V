@@ -89,3 +89,15 @@ bash scripts/unsup_recycle/train_v2c.sh
 # TODO
 - [x] Unsupervised RecycleGAN + Shortcut-V2V (Viper-to-Cityscapes)
 - [ ] VToonify + Shortcut-V2V
+
+# Citation
+```
+@misc{chung2023shortcutv2v,
+      title={Shortcut-V2V: Compression Framework for Video-to-Video Translation based on Temporal Redundancy Reduction}, 
+      author={Chaeyeon Chung and Yeojeong Park and Seunghwan Choi and Munkhsoyol Ganbat and Jaegul Choo},
+      year={2023},
+      eprint={2308.08011},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
