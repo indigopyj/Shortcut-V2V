@@ -59,8 +59,8 @@ $dataset_root
 
 | Model | Dataset | Type | Link |
 | --- | --- | --- | --- |
-| Unsupervised RecycleGAN | Viper-to-Cityscapes | Teacher |  |
-| Unsupervised RecycleGAN | Viper-to-Cityscapes | Shortcut-V2V |  |
+| Unsupervised RecycleGAN | Viper-to-Cityscapes | Teacher | [here](https://drive.google.com/file/d/1ZZDL44Xh0uoBKIQOq59vN1hCoyuANfU1/view?usp=sharing) |
+| Unsupervised RecycleGAN | Viper-to-Cityscapes | Shortcut-V2V | [here](https://drive.google.com/file/d/12L9QPuEkuXNlL51PbNiARwuL6Wprueh0/view?usp=sharing) |
 | VToonify | - | Teacher |  |
 | VToonify | - | Shortcut-V2V |  |
 
@@ -87,5 +87,5 @@ bash scripts/unsup_recycle/train_v2c.sh
 
 
 # TODO
-- [x] Unsupervised RecycleGAN + Shortcut-V2V
+- [x] Unsupervised RecycleGAN + Shortcut-V2V (Viper-to-Cityscapes)
 - [ ] VToonify + Shortcut-V2V
