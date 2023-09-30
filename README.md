@@ -72,13 +72,6 @@ $dataset_root
 bash scripts/unsup_recycle/test_v2c.sh
 ```
 
-### VToonify(SIGGRAPH 2022) + Shortcut-V2V
-
-```jsx
-python train.py 
-```
-
-# Training
 
 ---
 
@@ -92,12 +85,7 @@ There are two steps for training. First, train an original generator following t
 bash scripts/unsup_recycle/train_v2c.sh
 ```
 
-### VToonify(SIGGRAPH 2022) + Shortcut-V2V
 
-```jsx
-
-```
-
-# 4. Etc
-
-- The pretrained VGG weights is available [here](https://davian-lab.quickconnect.to/d/s/p54tQnnBHylHD78i9SwrVEYnOMbPAioH/P0TaFBnGc8qYHexocB1fY5922gYnVmKO-TrYAgeuzmAk) for computing perceptual loss during training.
+# TODO
+- [x] Unsupervised RecycleGAN + Shortcut-V2V
+- [ ] VToonify + Shortcut-V2V
